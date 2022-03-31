@@ -1,0 +1,166 @@
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+body {
+    background-image: url('img/55.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    color: #FFFFFF;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 2px solid #FFFF00; */
+  padding: 10px;
+  }
+
+ .meter { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter1 { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter2 { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter3 { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter4 { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter5 { 
+  height: 20px;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+}
+.meter1 span {
+  display: block;
+  height: 100%;
+}
+
+.meter2 span {
+  display: block;
+  height: 100%;
+}
+
+.meter3 span {
+  display: block;
+  height: 100%;
+}
+
+.meter4 span {
+  display: block;
+  height: 100%;
+}
+
+.meter5 span {
+  display: block;
+  height: 100%;
+}
+
+
+.progress {
+  background-color:violet;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+.progress1 {
+  background-color: palevioletred;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+.progress2 {
+  background-color: orange;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+.progress3 {
+  background-color: aqua;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+.progress4 {
+  background-color: brown;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+.progress5 {
+  background-color: indigo;
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+0% { width: 0; }
+100% { width: 100%; }
+}
